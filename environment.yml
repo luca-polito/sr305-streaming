@@ -2,8 +2,8 @@
 # Dipendenze del progetto; escluse libreria standard e librerie di altri progetti.
 # Richiede OpenCV con GUI (cv2.imshow); rsSR305-PyQt contiene la variante headless.
 # Creazione: conda env create -f environment.yml
-# Avvio: conda activate sr305-streaming
-name: sr305-streaming
+# Avvio: conda activate rsSR305-opencv
+name: rsSR305-opencv
 channels:
   - defaults
 dependencies:

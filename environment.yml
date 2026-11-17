@@ -1,0 +1,15 @@
+# Windows x64. Versioni rilevate il 2026-11-17 nell'ambiente rsSR305-opencv.
+# Dipendenze del progetto; escluse libreria standard e librerie di altri progetti.
+# Richiede OpenCV con GUI (cv2.imshow); rsSR305-PyQt contiene la variante headless.
+# Creazione: conda env create -f environment.yml
+# Avvio: conda activate sr305-streaming
+name: sr305-streaming
+channels:
+  - defaults
+dependencies:
+  - python=3.9.25
+  - pip=26.0.1
+  - pip:
+      - 'numpy==2.0.1'
+      - 'opencv-python==4.11.0.86'
+      - 'pyrealsense2==2.50.0.3812'
